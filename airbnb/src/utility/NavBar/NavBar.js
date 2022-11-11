@@ -17,7 +17,9 @@ class NavBar extends Component{
                         <div className='nav-wrapper'>
                             <ul id='nav-mobile' className='right'>
                                 <li><Link to="/">English (US)</Link></li>
-                                <li><Link to="/"></Link></li>
+                                <li><Link to="/">$ USD</Link></li>
+                                <li><Link to="/">Sign up</Link></li>
+                                <li><Link to="/">Log in</Link></li>
                             </ul>
                         </div>
                     </nav>
