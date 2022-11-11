@@ -9,9 +9,9 @@ class App extends Component{
       <Routes>
 
       
-      <Route path='/' component = {NavBar}/>
+      <Route path='/' element = {NavBar}/>
       
-      <Route exact path='/' component = {Home}/>
+      <Route exact path='/' element = {Home}/>
       </Routes>
     </Router>
     )
